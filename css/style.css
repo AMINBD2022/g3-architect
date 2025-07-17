@@ -106,10 +106,29 @@ nav ul li a{
 
 /* banner section end  */
 
+/* our feature style start   */
+.our-feature{
+    align-items: center;
+    padding: 100px;
+}
 
-
-
-
+.our-feature .team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.our-feature > div {
+    max-width: 50%;
+}
+ .our-feature .content-box{
+    margin-left: 100px;
+    max-width: 540px;
+ }
+.our-feature .content-box h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 3rem;
+}
 
 
 
@@ -128,12 +147,25 @@ nav ul li a{
         padding: 20px;
     }
 
-    nav{
+    nav , .our-feature{
         flex-direction: column;
     }
     .img-box img{
         max-width: 100%;
         padding: 0 20px;
+    }
+    .our-feature{
+        padding: 20px;
+    }
+    .our-feature .team-images{
+        grid-template-columns: 1fr;
+    }
+    .our-feature > div{
+        max-width: 100%;
+        padding: 20px;
+    }
+    .our-feature .content-box{
+        margin-left: 20px;
     }
 }
 
