@@ -149,9 +149,8 @@ nav ul li a{
 
 .feature-box{
     padding: 30px;
-    box-shadow: 0 4px 30px rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, .1);
     margin-top: 10px;
 }
 .feature-title{
