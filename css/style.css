@@ -135,6 +135,63 @@ nav ul li a{
     max-width: 540px;
  }
 
+
+
+ /* love enjy section  */
+
+ .loveenjoy{
+    gap:50px;
+    justify-content: space-between;
+ }
+.loveenjoy > div {
+    max-width: 40%;
+}
+
+.feature-box{
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-top: 10px;
+}
+.feature-title{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+.feature-box .section-description{
+    margin: 0;
+}
+
+.loveenjoy img{
+    width: 100%;
+}
+.loveenjoy .btn-global{
+    margin-top: -70px;
+    margin-left: -70px;
+}
+
+.badge{
+    font-size: 65px;
+}
+.small{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------------- Our some Fect --------------------  */
 
 
