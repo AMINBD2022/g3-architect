@@ -203,6 +203,11 @@ nav ul li a{
     .our-feature .content-box{
         margin-left: 20px;
     }
+    .fect-container{
+        padding: 20px;
+        flex-direction: column;
+        gap:20px;
+    }
 }
 
 
