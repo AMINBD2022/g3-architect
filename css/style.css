@@ -265,6 +265,9 @@ footer p{
     header{
         padding: 20px;
     }
+    .nav-bar li{
+        padding: 12px;
+    }
 
     nav , .our-feature{
         flex-direction: column;
