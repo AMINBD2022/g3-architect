@@ -56,6 +56,16 @@ img{
 }
 
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.section-description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
 
 
 
@@ -94,7 +104,7 @@ nav ul li a{
     text-align: center;
     padding: 0 20px;
 }
-.section-title {
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
     line-height: 4rem;
@@ -124,11 +134,37 @@ nav ul li a{
     margin-left: 100px;
     max-width: 540px;
  }
-.our-feature .content-box h2{
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 3rem;
+
+/* ---------------- Our some Fect --------------------  */
+
+
+
+.fect{
+    padding: 100px 20px;
 }
+
+.fect-container{
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.fect-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border: 10px;
+    border:1px solid #FF900E;
+    gap:15px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
 
 
 
